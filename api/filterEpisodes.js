@@ -13,6 +13,6 @@ async function filterEpisodes(name, status) {
     console.error('Error filtering episodes:', error);
     throw error;
   }
-}
+}    
 
 export { filterEpisodes };
